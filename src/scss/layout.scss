@@ -1,0 +1,14 @@
+
+* {
+
+}
+
+html {
+	font-family: 'HelveticaNeue', sans-serif;
+}
+
+body {
+	background-color: $bodyBg;
+}
+
+@import "./sections/header.scss";
