@@ -1,3 +1,46 @@
 #section_header {
-	
+	$height: 70px;
+
+	.desktop {
+		.container {
+			display: flex;
+			justify-content: space-between;
+			
+		}
+		.left-side {
+			display: flex;
+			align-items: center;
+
+			.short-desc {
+				margin-left: 30px;
+				font-size: 0.95rem;
+				line-height: 1.4;
+				color: lighten(#000, 30%);
+			}
+		}
+		.right-side {
+			display: flex;
+			align-items: center;
+		}
+		.logo-area {
+			
+		}
+		.logo {
+			height: $height;
+			display: flex;
+			align-items: center;
+
+			img {
+				width: 132px;
+			}
+		}
+		.contact-us {
+			margin-left: 40px;
+			border-radius: 999px;
+			background-color: #4e6173;
+			color: #fff;
+			padding: 12px 21px;
+			line-height: 1;
+		}
+	}
 }
