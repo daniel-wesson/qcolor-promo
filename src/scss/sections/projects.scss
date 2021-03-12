@@ -1,0 +1,147 @@
+#section_projects {
+	margin-top: 70px;
+	min-height: 820px;
+
+	.slick-list, .slick-track, .slick-slide, .slick-slide > div {
+		height: 100%;
+	}
+	.slider {
+		position: relative;
+		height: 100%;
+
+		.navigation {
+			width: 100%;
+			max-width: 1180px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 10;
+			pointer-events: none;
+
+			.btn {
+				width: 50px;
+				height: 50px;
+				border-radius: 999px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				pointer-events: auto;
+
+				svg {
+					width: 20px;
+					color: #8b8b8b;
+					transition: color .2s ease;
+				}
+				&:hover svg {
+					color: #000;
+				}
+				&.prev {
+					left: 0;
+				}
+				&.next {
+					right: 0;
+				}
+			}
+		}
+	}
+	.slides {
+		height: 100%;
+		margin-top: -50px;
+	}
+	.slide {
+		height: 100%;
+		padding: 50px 0;
+	}
+	.slide-content {
+		max-width: 1000px;
+
+		.project-preview {
+			position: relative;
+			width: 100%;
+			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 0px 0px 50px 1px rgba(0,0,0,0.15);
+
+			.mac-bar, .project-image {
+				width: 100%;
+			}
+
+			.overlay-on-hover {
+				position: absolute;
+				top: 36px;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(#000, .6);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				transition: backdrop-filter .2s ease, opacity .3s ease;
+				opacity: 0;
+				border-bottom-left-radius: inherit;
+				border-bottom-right-radius: inherit;
+
+				.see-project {
+					padding: 18px 25px;
+					color: #fff;
+					background-color: $blue;
+					border-radius: 10px;
+					font-size: 1.15rem;
+					font-weight: 500;
+					display: flex;
+					align-items: center;
+
+					svg {
+						color: #fff;
+						width: 15px;
+						margin-left: 13px;
+					}
+				}
+			}
+			&:hover .overlay-on-hover {
+				opacity: 1;
+			}
+		}
+	}
+	.slick-dots {
+		display: flex;
+		justify-content: center;
+
+		button {
+			display: block;
+			font-size: 0;
+			width: 20px;
+			height: 20px;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			
+			&:after {
+				content: "";
+				display: block;
+				width: 12px;
+				height: 12px;
+				border-radius: 99px;
+				background-color: #c9c9c9;
+				transition: background-color .15s ease;
+			}
+			&:hover:after {
+				background-color: #939393;
+			}
+		}
+		li {
+			&:not(:last-child) {
+				margin-right: 15px;
+			}
+			&.slick-active button::after {
+				background-color: $blue;
+			}
+		}
+	}
+}

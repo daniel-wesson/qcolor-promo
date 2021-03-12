@@ -1,11 +1,16 @@
 #section_header {
 	$height: 70px;
+	position: relative;
+	top: 0;
+	z-index: 100;
 
 	.desktop {
+		background-color: #fff;
+		// box-shadow: 0 6px 41px -22px rgba(0, 0, 0, 0.12);
+
 		.container {
 			display: flex;
 			justify-content: space-between;
-			
 		}
 		.left-side {
 			display: flex;
@@ -34,13 +39,69 @@
 				width: 132px;
 			}
 		}
-		.contact-us {
-			margin-left: 40px;
-			border-radius: 999px;
-			background-color: #4e6173;
-			color: #fff;
-			padding: 12px 21px;
-			line-height: 1;
+		.phone {
+			font-size: 1.24rem;
+			font-weight: 500;
 		}
+		.messengers {
+			display: flex;
+			margin-left: 40px;
+		}
+		.messenger-item {
+			&:not(:last-child) {
+				margin-right: 13px;
+			}
+			.link {
+				display: flex;
+				width: 40px;
+				height: 40px;
+				background-color: grey;
+				border-radius: 999px;
+				align-items: center;
+				justify-content: center;
+
+				svg {
+					color: #fff;
+					height: 26px;
+				}
+				&.vk svg {
+					width: 26px;
+				}
+				&.whatsapp svg {
+					width: 26px;
+				}
+				&.telegram svg {
+					width: 21px;
+					margin-right: 2px;
+				}
+			}
+		}
+		// .contacts {
+		// 	text-align: center;
+
+		// 	a {
+		// 		display: block;
+
+		// 		&.phone {
+		// 			font-size: 1.05rem;
+		// 			font-weight: 600;
+		// 		}
+		// 		&.email {
+		// 			margin-top: 5px;
+
+		// 			&:hover {
+		// 				text-decoration: underline;
+		// 			}
+		// 		}
+		// 	}
+		// }
+		// .contact-us {
+		// 	margin-left: 40px;
+		// 	border-radius: 999px;
+		// 	background-color: #4e6173;
+		// 	color: #fff;
+		// 	padding: 12px 21px;
+		// 	line-height: 1;
+		// }
 	}
 }

@@ -16,6 +16,8 @@
 		"sass": "^1.32.8"
 	},
 	"dependencies": {
-		"jquery": "^3.6.0"
+		"aos": "^2.3.4",
+		"jquery": "^3.6.0",
+		"slick-carousel": "^1.8.1"
 	}
 }

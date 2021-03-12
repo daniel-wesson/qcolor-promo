@@ -3,3 +3,8 @@
 @import "./font.scss";
 @import "./variables.scss";
 @import "./layout.scss";
+
+@import "../../node_modules/aos/dist/aos.css";
+@import "../../node_modules/slick-carousel/slick/slick.css";
+
+@import "./templates/home.scss";
