@@ -2,6 +2,7 @@
 import $ from 'jquery'
 import AOS from 'aos'
 import Slick from 'slick-carousel'
+import { jarallax } from 'jarallax';
 
 $(document).ready(() => {
 	AOS.init({
@@ -33,5 +34,11 @@ $(document).ready(() => {
 		// 		swipe: true,
 		// 	}
 		// }]
-	});
+	})
+
+	jarallax(document.querySelectorAll('#section_clients .banner .bg-parallax'), {
+		speed: 0.65,
+		imgElement: '#section_clients .banner .bg-parallax .bg'
+	})
+
 })

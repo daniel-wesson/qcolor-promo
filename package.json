@@ -17,6 +17,7 @@
 	},
 	"dependencies": {
 		"aos": "^2.3.4",
+		"jarallax": "^1.12.5",
 		"jquery": "^3.6.0",
 		"slick-carousel": "^1.8.1"
 	}
