@@ -1,6 +1,6 @@
 #section_projects {
 	margin-top: 140px;
-	min-height: 820px;
+	// min-height: 820px;
 
 	.slick-list, .slick-track, .slick-slide, .slick-slide > div {
 		height: 100%;
@@ -63,7 +63,8 @@
 		.see-project {
 			padding: 18px 25px;
 			color: #fff;
-			background-color: $blue;
+			// background-color: $blue;
+			background-image: $blueGradient;
 			border-radius: 10px;
 			font-size: 1.15rem;
 			font-weight: 500;

@@ -79,13 +79,14 @@
 		.welcome-action {
 			display: inline-block;
 			margin-top: 50px;
-			background-color: $blue;
+			// background-color: $blue;
+			background-image: $blueGradient;
 			color: #fff;
 			border-radius: 10px;
 			padding: 21px 30px;
 			font-size: 1.2rem;
 			font-weight: 500;
-			animation: effect 3s ease infinite 1s;
+			animation: effect 2s ease infinite 1s;
 
 			@keyframes effect {
 				0% {
