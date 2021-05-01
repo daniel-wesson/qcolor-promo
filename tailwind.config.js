@@ -22,7 +22,9 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				primary: '#2298ff'
+				primary: '#2298ff',
+				'primary-darken': '#485bff',
+				'primary-lighten': '#00cfff'
 			},
 			fontSize: {
 				'.95': ['.95rem']

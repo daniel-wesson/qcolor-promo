@@ -56,5 +56,12 @@ export default {
 	build: {
 		extractCSS: true,
 		publicPath: '/assets/'
+	},
+
+	vue: {
+		config: {
+			productionTip: false,
+			devtools: false
+		}
 	}
 }

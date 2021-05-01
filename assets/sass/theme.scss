@@ -1,0 +1,36 @@
+
+.blue-underline {
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 4px;
+		display: block;
+		height: 12px;
+		background-color: $blue;
+		opacity: .5;
+		z-index: -1;
+	}
+}
+
+.btn {
+	@apply font-medium rounded-lg text-xl py-5 px-7;
+}
+.btn-primary-gradient {
+	@apply bg-gradient-to-r from-primary-lighten to-primary-darken text-white;
+}
+.btn-primary-ping {
+	animation: primaryPing 2s ease infinite 1s;
+
+	@keyframes primaryPing {
+		0% {
+			box-shadow: 0 0 0 0 $primary;
+		}
+		30% {
+			box-shadow: 0 0 0 20px rgba($primary, 0);
+		}
+	}
+}
