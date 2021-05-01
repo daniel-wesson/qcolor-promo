@@ -55,13 +55,14 @@
 				display: flex;
 				width: 40px;
 				height: 40px;
-				background-color: grey;
-				border-radius: 999px;
+				background-color: #f2f2f2;
+				border-radius: 7px;
 				align-items: center;
 				justify-content: center;
 
 				svg {
-					color: #fff;
+					transition: color .2s ease;
+					color: #4f4f4f;
 					height: 26px;
 				}
 				&.vk svg {
@@ -73,6 +74,9 @@
 				&.telegram svg {
 					width: 21px;
 					margin-right: 2px;
+				}
+				&:hover svg {
+					color: #000;
 				}
 			}
 		}
