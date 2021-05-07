@@ -28,7 +28,16 @@ module.exports = {
 			},
 			fontSize: {
 				'.95': ['.95rem']
-			}
+			},
+			animation: {
+				'floating': 'floating 5s ease-in-out infinite',
+        	},
+        	keyframes: {
+				floating: {
+					'0%, 100%': { transform: 'translateY(-15px)' },
+					'50%': { transform: 'translateY(0px)' },
+				}
+        	}
 		},
 	},
 	variants: {

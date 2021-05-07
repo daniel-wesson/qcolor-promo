@@ -1,5 +1,5 @@
 <template>
-	<header class="section_header fixed inset-x-0 top-0 bg-white">
+	<header class="section_header fixed inset-x-0 top-0 bg-white z-30">
 		<div class="container">
 			<div class="flex justify-between">
 				<div class="flex">

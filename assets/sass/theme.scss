@@ -1,4 +1,8 @@
 
+body {
+	cursor: default;
+}
+
 .blue-underline {
 	position: relative;
 
@@ -16,12 +20,32 @@
 	}
 }
 
-.btn {
-	@apply font-medium rounded-lg text-xl py-5 px-7;
+.square {
+	position: relative;
+
+	&:after {
+		content: "";
+		display: block;
+		padding-top: 100%;
+	}
 }
+
+.btn {
+	@apply inline-flex items-center font-medium rounded-lg text-lg py-4 px-6;
+}
+
+.btn-sm {
+	@apply px-6 py-2;
+}
+
+.btn-lg {
+	@apply py-5 px-7 text-xl;
+}
+
 .btn-primary-gradient {
 	@apply bg-gradient-to-r from-primary-lighten to-primary-darken text-white;
 }
+
 .btn-primary-ping {
 	animation: primaryPing 2s ease infinite 1s;
 

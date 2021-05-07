@@ -1,12 +1,13 @@
 
 @import './font.scss';
 @import './variables.scss';
+@import './theme.scss';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import './theme.scss';
+
 @import './sections/header.scss';
 
 @import './pages/home.scss';

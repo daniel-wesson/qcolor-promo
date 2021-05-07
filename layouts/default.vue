@@ -1,5 +1,5 @@
 <template>
-	<div id="site_wrapper">
+	<div>
 		<Header />
 		<Nuxt />
 		<Footer />
@@ -8,8 +8,8 @@
 
 <script>
 	
-	import Header from '~/components/Header'
-	import Footer from '~/components/Footer'
+	import Header from '~/components/sections/Header'
+	import Footer from '~/components/sections/Footer'
 
 	export default {
 		components: { Header, Footer }
