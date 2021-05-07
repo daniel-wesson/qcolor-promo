@@ -25,5 +25,57 @@
 				}
 			}
 		}
+		.slick-dots {
+			display: flex;
+			justify-content: center;
+
+			button {
+				display: block;
+				font-size: 0;
+				width: 20px;
+				height: 20px;
+				cursor: pointer;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
+				&:after {
+					content: "";
+					display: block;
+					width: 12px;
+					height: 12px;
+					border-radius: 99px;
+					background-color: #c9c9c9;
+					transition: background-color .15s ease;
+				}
+				&:hover:after {
+					background-color: #939393;
+				}
+				&:focus {
+					outline: none;
+					box-shadow: none;
+					appearance: none;
+					border: none;
+				}
+			}
+			li {
+				&:not(:last-child) {
+					margin-right: 15px;
+				}
+				&.slick-active button::after {
+					background-color: $primary;
+				}
+			}
+		}
+		.slider-nav-arrow {
+			.chevron-icon {
+				transition: color .2s ease;
+			}
+			&:hover {
+				.chevron-icon {
+					color: #1f2937;
+				}
+			}
+		}
 	}
 }
