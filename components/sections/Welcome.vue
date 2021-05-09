@@ -3,7 +3,7 @@
 		<div class="container relative z-10">
 			<h1 class="font-medium leading-tight text-6xl">
 				Разработка сайта <br>
-				<span class="blue-underline">без предоплаты</span>
+				<span class="underline-primary">без предоплаты</span>
 			</h1>
 			<div class="flex mt-10">
 				<p class="font-semibold text-lg mr-8"><span class="text-primary">От</span> 9990 рублей</p>

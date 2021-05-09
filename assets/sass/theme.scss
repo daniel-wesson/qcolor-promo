@@ -3,7 +3,7 @@ body {
 	cursor: default;
 }
 
-.blue-underline {
+.underline-primary {
 	position: relative;
 
 	&:before {
@@ -14,9 +14,60 @@ body {
 		bottom: 4px;
 		display: block;
 		height: 12px;
-		background-color: $blue;
+		background-color: $primary;
 		opacity: .5;
 		z-index: -1;
+	}
+}
+
+.progress-body {
+	@apply w-full h-4 rounded-sm bg-gray-100;
+}
+.progress-fullness {
+	height: 100%;
+	border-radius: inherit;
+	position: relative;
+	background-color: $primary;
+	background-size: 16px 16px;
+	background-repeat: repeat-x;
+	background-image: linear-gradient(45deg,hsla(0,0%,100%,.15) 25%,transparent 0,transparent 50%,hsla(0,0%,100%,.15) 0,hsla(0,0%,100%,.15) 75%,transparent 0,transparent);
+	animation: striped-progress 1s linear infinite;
+
+	.tip {
+		position: absolute;
+		background: #19191c;
+		padding: 2px 5px;
+		border-radius: inherit;
+		color: #fff;
+		line-height: 16px;
+		position: absolute;
+		right: 0;
+		transform: translateX(50%);
+		top: -25px;
+		font-size: 10px;
+
+		&:after {
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			transform: translateX(-50%);
+			content: "";
+			display: block;
+			width: 0;
+			height: 0;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid #19191c;
+		}
+	}
+
+	@keyframes striped-progress {
+		from {
+			background-position: 16px;
+		}
+		to {
+			background-position: 0;
+		}
 	}
 }
 
