@@ -6,17 +6,17 @@
 		<div class="relative">
 			<div class="slider" ref="slider">
 				<div>
-					<div class="max-w-5xl mx-auto py-16">
+					<div class="max-w-5xl mx-auto py-16 px-5">
 						<div class="case-preview rounded-xl overflow-hidden">
 							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
 							<div class="relative">
 								<div class="overlay absolute inset-0 rounded-b-xl bg-black bg-opacity-60 flex justify-center items-center">
-									<a href="#" class="btn btn-primary-gradient">
+									<a href="#" class="btn btn-black">
 										Перейти на сайт
 										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
 									</a>
 								</div>
-								<img class="w-full" src="/img/projects/tg_image_4030849595.jpeg" alt="Case image">
+								<img class="w-full" src="/img/cases/tg_image_4030849595.jpeg" alt="Case image">
 							</div>
 						</div>
 						<div class="mt-10">
@@ -38,7 +38,7 @@
 									</p>
 								</div>
 								<div class="text-right">
-									<a href="#" class="btn btn-primary-gradient">
+									<a href="#" class="btn btn-black">
 										Перейти на сайт
 										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
 									</a>
@@ -55,7 +55,7 @@
 
 
 
-			<div class="absolute inset-0 pointer-events-none">
+			<div class="absolute inset-0 pointer-events-none xl:block hidden">
 				<div class="container h-full relative">
 					<div class="absolute left-0 w-12 flex h-full items-center">
 						<button class="slider-nav-arrow w-12 h-12 pointer-events-auto flex justify-center items-center" title="Предыдущий слайд" ref="prevBtn">

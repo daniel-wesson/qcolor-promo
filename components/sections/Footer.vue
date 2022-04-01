@@ -1,5 +1,5 @@
 <template>
-	<footer>
+	<footer class="py-40">
 		
 	</footer>
 </template>

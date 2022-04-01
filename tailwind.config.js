@@ -1,3 +1,6 @@
+
+const colors = require('tailwindcss/colors')
+
 module.exports = {
 	purge: [
 		'./components/**/*.{vue,js}',
@@ -15,14 +18,22 @@ module.exports = {
 			xl: '1280px'
 		},
 		container: {
-			center: true
+			center: true,
+			padding: {
+		        DEFAULT: '1.25rem',
+		        sm: '1.25rem',
+		        lg: '1.25rem',
+		        xl: '0'
+		    },
 		},
 		fontFamily: {
 			sans: 'TTNorms, sans-serif'
 		},
 		extend: {
 			colors: {
-				primary: '#2298ff',
+				// primary: '#f89e67',
+				// primary: '#f5978a',
+				primary: '#111827',
 				'primary-darken': '#485bff',
 				'primary-lighten': '#00cfff'
 			},

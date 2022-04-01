@@ -1,4 +1,11 @@
 
+@import './font.scss';
+@import './variables.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
 	cursor: default;
 }
@@ -14,7 +21,8 @@ body {
 		bottom: 4px;
 		display: block;
 		height: 12px;
-		background-color: $primary;
+		// background-color: $primary;
+		background-color: #111827;
 		opacity: .5;
 		z-index: -1;
 	}
@@ -83,29 +91,35 @@ body {
 
 .btn {
 	@apply inline-flex items-center font-medium rounded-lg text-lg py-4 px-6;
+
+	&-sm {
+		@apply px-6 py-2;
+	}
+	&-lg {
+		@apply text-xl py-5 px-7;
+	}
+	&-primary {
+		@apply text-white bg-primary;
+	}
+	&-black {
+		@apply text-white bg-gray-900;
+	}
+	&-black-outline {
+		@apply text-gray-900 border border-gray-900;
+	}
+	&-white {
+		@apply text-black bg-white;
+	}
+	&-ping-primary {
+		animation: primaryPing 2s ease infinite 1s;
+	}
 }
 
-.btn-sm {
-	@apply px-6 py-2;
-}
-
-.btn-lg {
-	@apply py-5 px-7 text-xl;
-}
-
-.btn-primary-gradient {
-	@apply bg-gradient-to-r from-primary-lighten to-primary-darken text-white;
-}
-
-.btn-primary-ping {
-	animation: primaryPing 2s ease infinite 1s;
-
-	@keyframes primaryPing {
-		0% {
-			box-shadow: 0 0 0 0 $primary;
-		}
-		30% {
-			box-shadow: 0 0 0 20px rgba($primary, 0);
-		}
+@keyframes primaryPing {
+	0% {
+		box-shadow: 0 0 0 0 $primary;
+	}
+	30% {
+		box-shadow: 0 0 0 20px rgba($primary, 0);
 	}
 }

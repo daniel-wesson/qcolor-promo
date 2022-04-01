@@ -24,6 +24,7 @@ export default {
 	css: [
 		'slick-carousel/slick/slick.css',
 		'aos/dist/aos.css',
+		'@/assets/sass/theme.scss',
 		'@/assets/sass/app.scss'
 	],
 
@@ -55,7 +56,8 @@ export default {
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
 		extractCSS: true,
-		publicPath: '/assets/'
+		publicPath: '/assets/',
+		transpile: ['gsap']
 	},
 
 	vue: {
@@ -63,5 +65,9 @@ export default {
 			productionTip: false,
 			devtools: false
 		}
+	},
+
+	server: {
+		// host: '192.168.0.19'
 	}
 }

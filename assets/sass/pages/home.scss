@@ -1,13 +1,18 @@
 .page_home {
 	.section_welcome {
-		min-height: 820px;
+		min-height: 720px;
+		max-height: 1250px;
 
-		.right-image-wrapper {
-			.notification {
-				height: 70px;
-				border-radius: 10px;
-			}
+		@media (min-width: 1280px) {
+			min-height: 820px;
 		}
+
+		// .right-image-wrapper {
+		// 	.notification {
+		// 		height: 70px;
+		// 		border-radius: 10px;
+		// 	}
+		// }
 	}
 	.section_cases-slider {
 		.slider {
@@ -78,5 +83,11 @@
 			}
 		}
 	}
-	
+	.section_get-started {
+		margin-top: -170vh;
+
+		.backdrop {
+			background-image: url('/img/footer-gradient.jpg')
+		}
+	}
 }
