@@ -6,18 +6,12 @@
 					<a href="https://deserve.ru" class="h-16 flex items-center">
 						<img class="h-8 mb-1" src="~/static/img/logo.png" alt="">
 					</a>
-					<p class="lg:block hidden self-center text-.95 leading-snug ml-8 text-gray-600">
+					<p class="block self-center text-.95 leading-snug ml-8 text-gray-600">
 						Качественная разработка и комплексное <br>
 						продвижение сайтов для психологов под ключ от 14 дней
 					</p>
 				</div>
-				<div class="lg:hidden h-full">
-					<button class="-mr-3 w-16 h-16 flex items-center justify-center">
-						<div class="w-8" v-html="require('~/assets/icons/menu.svg?raw')"></div>
-						<div class="w-8" v-html="require('~/assets/icons/close.svg?raw')"></div>
-					</button>
-				</div>
-				<div class="lg:flex items-center hidden">
+				<div class="flex items-center">
 					<a href="tel:+79101127174" class="font-medium text-xl">8 (910) 112 71-74</a>
 					<ul class="flex ml-10 ">
 						<li>

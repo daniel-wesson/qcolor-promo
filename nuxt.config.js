@@ -8,7 +8,7 @@ export default {
 	head: {
 		title: 'promo.deserve',
 		htmlAttrs: {
-			lang: 'en'
+			lang: 'ru'
 		},
 		meta: [
 			{ charset: 'utf-8' },
@@ -30,8 +30,9 @@ export default {
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
-		{ src:  '~plugins/aos', ssr: false },
-		{ src: '@/plugins/slick', ssr: false },
+		{ src: '~plugins/aos', ssr: false },
+		{ src: '~/plugins/slick', ssr: false },
+		{ src: '~/plugins/smooth-scroll.js', ssr: false },
 	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
@@ -39,8 +40,7 @@ export default {
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: [
-		'@nuxtjs/tailwindcss',
-		'@nuxtjs/svg'
+		'@nuxt/postcss8'
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -57,7 +57,18 @@ export default {
 	build: {
 		extractCSS: true,
 		publicPath: '/assets/',
-		transpile: ['gsap']
+		transpile: ['gsap'],
+		postcss: {
+			plugins: {
+				// https://tailwindcss.nuxtjs.org/options
+				tailwindcss: {
+					config: './tailwind.config.js',
+					// cssPath: resolve(__dirname, 'assets/tailwind.css'),
+					exposeConfig: true
+				},
+				autoprefixer: {},
+			},
+		},
 	},
 
 	vue: {

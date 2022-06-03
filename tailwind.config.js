@@ -1,38 +1,26 @@
-
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-	purge: [
+	content: [
 		'./components/**/*.{vue,js}',
 		'./layouts/**/*.vue',
+		'./plugins/**/*.js',
 		'./pages/**/*.vue',
-		'./plugins/**/*.{js,ts}',
-		'./nuxt.config.{js,ts}',
+		'./nuxt.config.js'
 	],
-	darkMode: false, // or 'media' or 'class'
 	theme: {
 		screens: {
-			sm: '640px',
-			md: '768px',
-			lg: '1024px',
-			xl: '1280px'
-		},
-		container: {
-			center: true,
-			padding: {
-		        DEFAULT: '1.25rem',
-		        sm: '1.25rem',
-		        lg: '1.25rem',
-		        xl: '0'
-		    },
+			'2xl': {'max': '1535px'},
+			'xl': {'max': '1279px'},
+			'lg': {'max': '1023px'},
+			'md': {'max': '767px'},
+			'sm': {'max': '639px'},
 		},
 		fontFamily: {
 			sans: 'TTNorms, sans-serif'
 		},
 		extend: {
 			colors: {
-				// primary: '#f89e67',
-				// primary: '#f5978a',
 				primary: '#111827',
 				'primary-darken': '#485bff',
 				'primary-lighten': '#00cfff'
@@ -48,7 +36,34 @@ module.exports = {
 					'0%, 100%': { transform: 'translateY(-15px)' },
 					'50%': { transform: 'translateY(0px)' },
 				}
-        	}
+        	},
+			padding: {
+				'1/3': '33.333333%',
+				'2/3': '66.666667%',
+				'1/4': '25%',
+				'2/4': '50%',
+				'3/4': '75%',
+				'1/5': '20%',
+				'2/5': '40%',
+				'3/5': '60%',
+				'4/5': '80%',
+				'1/6': '16.666667%',
+				'2/6': '33.333333%',
+				'3/6': '50%',
+				'4/6': '66.666667%',
+				'5/6': '83.333333%',
+				'1/12': '8.333333%',
+				'2/12': '16.666667%',
+				'3/12': '25%',
+				'4/12': '33.333333%',
+				'5/12': '41.666667%',
+				'6/12': '50%',
+				'7/12': '58.333333%',
+				'8/12': '66.666667%',
+				'9/12': '75%',
+				'10/12': '83.333333%',
+				'11/12': '91.666667%',
+			}
 		},
 	},
 	variants: {
