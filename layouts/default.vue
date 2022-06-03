@@ -2,18 +2,16 @@
 	<div class="site-wrapper" :style="`opacity: ${loaded ? 1 : 0}`">
 		<Header />
 		<Nuxt />
-		<Footer />
 	</div>
 </template>
 
 <script>
-	
+
 	import Header from '~/components/sections/Header'
-	import Footer from '~/components/sections/Footer'
 	import Aos from 'aos'
 
 	export default {
-		components: { Header, Footer },
+		components: { Header },
 		data () {
 			return {
 				loaded: false

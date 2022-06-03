@@ -3,9 +3,7 @@
 		<div class="backdrop absolute inset-0 z-10 bg-no-repeat bg-center bg-cover" ref="bg"></div>
 		<div class="absolute inset-0 z-20 flex items-center">
 			<div class="container" ref="container">
-				<div class="mb-5 w-20 h-20 bg-white rounded-2xl mx-auto flex items-center justify-center" ref="logo">
-					<div class="w-3/4" v-html="require('~/assets/icons/logo-deserve-black-dot-min.svg?raw')"></div>
-				</div>
+				<img class="mb-5 h-20 mx-auto" src="/img/background-logo.png" alt="" ref="logo">
 				<h2 class="text-center text-7xl font-semibold" ref="title">Давайте обсудим <br>Ваш проект.</h2>
 				<p class="text-center text-2xl font-medium mt-7 leading-tight" ref="subtitle">Оставьте заявку на бесплатную консультацию </p>
 				<div class="flex justify-center">
@@ -17,7 +15,7 @@
 </template>
 
 <script>
-	
+
 	import { gsap } from 'gsap'
 	import { ScrollTrigger } from "gsap/ScrollTrigger"
 

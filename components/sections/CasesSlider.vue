@@ -11,35 +11,35 @@
 							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
 							<div class="relative">
 								<div class="overlay absolute inset-0 rounded-b-xl bg-black bg-opacity-60 flex justify-center items-center">
-									<a href="#" class="btn btn-black">
-										Перейти на сайт
+									<a href="https://sapanova.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
 										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
 									</a>
 								</div>
-								<img class="w-full" src="/img/cases/tg_image_4030849595.jpeg" alt="Case image">
+								<img class="w-full" src="/img/cases/case-sapanova.png" alt="Case image">
 							</div>
 						</div>
 						<div class="mt-10">
-							<p class="font-semibold text-2xl text-gray-900">Лендинг для специализированного центра по замене и ремонту автостекол</p>
-							<p class="mt-5 text-xl">Задача: сделать продающий лендинг</p>
+							<p class="font-semibold text-2xl text-gray-900">Лендинг для психолога, карьерного консультанта и профориентатора Арайлым Сапановой</p>
+							<p class="mt-5 text-xl">Задача: сделать экслюзивный высококонверсионный лендинг для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды</p>
 							<div class="grid grid-cols-3 mt-9">
 								<div>
-									<div class="text-primary font-semibold text-5xl">13</div>
+									<div class="text-primary font-semibold text-5xl">14</div>
 									<p class="text-xl">
 										дней отведено <br>
 										на реализацию проекта
 									</p>
 								</div>
 								<div>
-									<div class="text-primary font-semibold text-5xl">13</div>
+									<div class="text-primary font-semibold text-5xl">+15</div>
 									<p class="text-xl">
-										дней отведено <br>
-										на реализацию проекта
+										новых клиентов <br>
+										за первый месяц
 									</p>
 								</div>
 								<div class="text-right">
-									<a href="#" class="btn btn-black">
-										Перейти на сайт
+									<a href="https://sapanova.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
 										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
 									</a>
 								</div>
@@ -47,14 +47,191 @@
 						</div>
 					</div>
 				</div>
-				<div>Slide 2</div>
-				<div>Slide 3</div>
-				<div>Slide 4</div>
-				<div>Slide 5</div>
+
+
+
+
+				<div>
+					<div class="max-w-5xl mx-auto py-16 px-5">
+						<div class="case-preview rounded-xl overflow-hidden">
+							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
+							<div class="relative">
+								<div class="overlay absolute inset-0 rounded-b-xl bg-black bg-opacity-60 flex justify-center items-center">
+									<a href="https://sidorenko.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+								<img class="w-full" src="/img/cases/case-sidorenko.png" alt="Case image">
+							</div>
+						</div>
+						<div class="mt-10">
+							<p class="font-semibold text-2xl text-gray-900">Лендинг для психолога, занимающимся отношениями внутри супружеской пары - Елены Сидоренко</p>
+							<p class="mt-5 text-xl">Задача: сделать экслюзивный высококонверсионный лендинг для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды</p>
+							<div class="grid grid-cols-3 mt-9">
+								<div>
+									<div class="text-primary font-semibold text-5xl">9</div>
+									<p class="text-xl">
+										дней отведено <br>
+										на реализацию проекта
+									</p>
+								</div>
+								<div>
+									<div class="text-primary font-semibold text-5xl">+11</div>
+									<p class="text-xl">
+										новых клиентов <br>
+										за первый месяц
+									</p>
+								</div>
+								<div class="text-right">
+									<a href="https://sidorenko.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div>
+					<div class="max-w-5xl mx-auto py-16 px-5">
+						<div class="case-preview rounded-xl overflow-hidden">
+							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
+							<div class="relative">
+								<div class="overlay absolute inset-0 rounded-b-xl bg-black bg-opacity-60 flex justify-center items-center">
+									<a href="https://martyniuk.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+								<img class="w-full" src="/img/cases/case-martynuk.png" alt="Case image">
+							</div>
+						</div>
+						<div class="mt-10">
+							<p class="font-semibold text-2xl text-gray-900">Лендинг для психолога, помогающего принять себя и повысить личностный рост - Александры Мартынюк</p>
+							<p class="mt-5 text-xl">Задача: сделать экслюзивный высококонверсионный лендинг для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды</p>
+							<div class="grid grid-cols-3 mt-9">
+								<div>
+									<div class="text-primary font-semibold text-5xl">17</div>
+									<p class="text-xl">
+										дней отведено <br>
+										на реализацию проекта
+									</p>
+								</div>
+								<div>
+									<div class="text-primary font-semibold text-5xl">+20</div>
+									<p class="text-xl">
+										новых клиентов <br>
+										за первый месяц
+									</p>
+								</div>
+								<div class="text-right">
+									<a href="https://martyniuk.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div>
+					<div class="max-w-5xl mx-auto py-16 px-5">
+						<div class="case-preview rounded-xl overflow-hidden">
+							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
+							<div class="relative">
+								<div class="overlay absolute inset-0 rounded-b-xl bg-black bg-opacity-60 flex justify-center items-center">
+									<a href="https://chihdem.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+								<img class="w-full" src="/img/cases/case-chigdem.png" alt="Case image">
+							</div>
+						</div>
+						<div class="mt-10">
+							<p class="font-semibold text-2xl text-gray-900">Лендинг для психолога Александры Чигдэм, занимающейся мотивацией и личностным ростом своих клиентов</p>
+							<p class="mt-5 text-xl">Задача: сделать экслюзивный высококонверсионный лендинг для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды</p>
+							<div class="grid grid-cols-3 mt-9">
+								<div>
+									<div class="text-primary font-semibold text-5xl">21</div>
+									<p class="text-xl">
+										дней отведено <br>
+										на реализацию проекта
+									</p>
+								</div>
+								<div>
+									<div class="text-primary font-semibold text-5xl">+24</div>
+									<p class="text-xl">
+										новых клиентов <br>
+										за первый месяц
+									</p>
+								</div>
+								<div class="text-right">
+									<a href="https://chihdem.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div>
+					<div class="max-w-5xl mx-auto py-16 px-5">
+						<div class="case-preview rounded-xl overflow-hidden">
+							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
+							<div class="relative">
+								<div class="overlay absolute inset-0 rounded-b-xl bg-black bg-opacity-60 flex justify-center items-center">
+									<a href="https://closeness.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+								<img class="w-full" src="/img/cases/case-blisost.png" alt="Case image">
+							</div>
+						</div>
+						<div class="mt-10">
+							<p class="font-semibold text-2xl text-gray-900">Лендинг для коуча и психолога Анастасии Афинской, которая преподает онлайн-тренинги по принятию себя и любви к себе</p>
+							<p class="mt-5 text-xl">Задача: сделать экслюзивный высококонверсионный сайт для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды</p>
+							<div class="grid grid-cols-3 mt-9">
+								<div>
+									<div class="text-primary font-semibold text-5xl">24</div>
+									<p class="text-xl">
+										дней отведено <br>
+										на реализацию проекта
+									</p>
+								</div>
+								<div>
+									<div class="text-primary font-semibold text-5xl">+32</div>
+									<p class="text-xl">
+										новых заявки <br>
+										за первый месяц
+									</p>
+								</div>
+								<div class="text-right">
+									<a href="https://closeness.psyweb.site" target="_blank" class="btn btn-black">
+										Посмотреть работу
+										<span class="inline-block ml-3.5 w-4 h-4" v-html="require('~/assets/icons/external-link.svg?raw')"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-
-
-
 			<div class="absolute inset-0 pointer-events-none xl:block hidden">
 				<div class="container h-full relative">
 					<div class="absolute left-0 w-12 flex h-full items-center">
@@ -75,7 +252,7 @@
 </template>
 
 <script>
-	
+
 	import $ from 'jquery'
 
 	export default {

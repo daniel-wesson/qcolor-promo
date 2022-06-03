@@ -4,11 +4,11 @@
 			<div class="flex justify-between">
 				<div class="flex">
 					<a href="https://deserve.ru" class="h-16 flex items-center">
-						<img class="h-8 mb-1" src="~/static/img/logo-deserve-black-dot.svg" alt="">
+						<img class="h-8 mb-1" src="~/static/img/logo.png" alt="">
 					</a>
 					<p class="lg:block hidden self-center text-.95 leading-snug ml-8 text-gray-600">
-						Современная разработка и комплексное <br>
-						продвижение сайтов под ключ от 1 дня
+						Качественная разработка и комплексное <br>
+						продвижение сайтов для психологов под ключ от 14 дней
 					</p>
 				</div>
 				<div class="lg:hidden h-full">
@@ -20,16 +20,6 @@
 				<div class="lg:flex items-center hidden">
 					<a href="tel:+79101127174" class="font-medium text-xl">8 (910) 112 71-74</a>
 					<ul class="flex ml-10 ">
-						<li class="mr-3">
-							<a href="#" target="_blank" class="social-link flex items-center justify-center w-10 h-10 rounded-md">
-								<img class="social-image w-5" src="/img/social/telegram.svg" alt="telegram">
-							</a>
-						</li>
-						<li class="mr-3">
-							<a href="#" target="_blank" class="social-link flex items-center justify-center w-10 h-10 rounded-md">
-								<img class="social-image w-6" src="/img/social/vk.svg" alt="vk">
-							</a>
-						</li>
 						<li>
 							<a href="#" target="_blank" class="social-link flex items-center justify-center w-10 h-10 rounded-md">
 								<img class="social-image w-6" src="/img/social/whatsapp.svg" alt="whatsapp">
@@ -43,7 +33,7 @@
 </template>
 
 <script>
-	
+
 	import $ from 'jquery'
 
 	export default {
