@@ -7,7 +7,7 @@
 				<h2 class="text-center text-7xl font-semibold" ref="title">Давайте обсудим <br>Ваш проект.</h2>
 				<p class="text-center text-2xl font-medium mt-7 leading-tight" ref="subtitle">Оставьте заявку на бесплатную консультацию </p>
 				<div class="flex justify-center">
-					<a href="#" class="btn btn-white btn-sm mt-7" ref="button">Оставить заявку</a>
+					<a href="https://wa.me/79101127174" target="_blank" class="btn btn-white btn-sm mt-7" ref="button">Оставить заявку</a>
 				</div>
 			</div>
 		</div>
