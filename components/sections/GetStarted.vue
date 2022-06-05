@@ -1,13 +1,13 @@
 <template>
-	<div class="section_get-started h-screen relative z-10" ref="section">
+	<div class="section_get-started h-screen relative z-10 will-change-transform" ref="section">
 		<div class="backdrop absolute inset-0 z-10 bg-no-repeat bg-center bg-cover" ref="bg"></div>
 		<div class="absolute inset-0 z-20 flex items-center">
-			<div class="container" ref="container">
-				<img class="mb-5 h-20 mx-auto" src="/img/background-logo.png" alt="" ref="logo">
-				<h2 class="text-center text-7xl font-semibold" ref="title">Давайте обсудим <br>Ваш проект.</h2>
-				<p class="text-center text-2xl font-medium mt-7 leading-tight" ref="subtitle">Оставьте заявку на бесплатную консультацию </p>
+			<div class="container will-change-transform" ref="container">
+				<img class="mb-5 h-20 xl:h-16 mx-auto will-change-transform" src="/img/background-logo.png" alt="" ref="logo">
+				<h2 class="text-center text-7xl xl:text-6xl sm:text-5xl font-semibold" ref="title">Давайте обсудим <br>Ваш проект.</h2>
+				<p class="text-center text-2xl sm:text-xl font-medium mt-7 leading-tight" ref="subtitle">Оставьте заявку на бесплатную консультацию </p>
 				<div class="flex justify-center">
-					<a href="https://wa.me/79101127174" target="_blank" class="btn btn-white btn-sm mt-7" ref="button">Оставить заявку</a>
+					<a href="https://wa.me/79101127174" target="_blank" class="btn btn-white h-[50px] mt-7" ref="button">Оставить заявку</a>
 				</div>
 			</div>
 		</div>

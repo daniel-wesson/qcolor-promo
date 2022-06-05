@@ -54,6 +54,7 @@ body {
 .progress-body {
 	@apply w-full h-4 rounded-sm bg-gray-100;
 }
+
 .progress-fullness {
 	height: 100%;
 	border-radius: inherit;
@@ -113,7 +114,7 @@ body {
 }
 
 .btn {
-	@apply inline-flex items-center font-medium rounded-lg text-lg py-4 px-6;
+	@apply inline-flex items-center font-normal rounded-lg text-lg py-4 px-6 leading-none;
 
 	&-sm {
 		@apply px-6 py-2;

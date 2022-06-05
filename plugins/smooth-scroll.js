@@ -2,8 +2,8 @@ import SmoothScroll from 'smooth-scroll'
 
 export default ({ app }, inject) => {
 	const SCREEN_LG = 1023
-	const DESKTOP_OFFSET = 25
-	const MOBILE_OFFSET = -170
+	const DESKTOP_OFFSET = 0
+	const MOBILE_OFFSET = -50
 
 	const smoothScroll = new SmoothScroll('a[href*="#"]', {
 		header: '.section-header',

@@ -1,5 +1,5 @@
 <template>
-	<section class="section_cases-slider py-28">
+	<section class="section_cases-slider py-28 lg:py-16">
 		<div class="container">
 			<h2 class="text-center text-4xl font-semibold text-gray-700">Лучшие результаты наших клиентов</h2>
 		</div>
@@ -22,12 +22,15 @@
 						<div class="mt-10">
 							<p class="font-semibold text-2xl text-gray-900">{{ project.title }}</p>
 							<p class="mt-5 text-xl">{{ project.taskDesc }}</p>
-							<div class="grid grid-cols-3 mt-9">
-								<div class="max-w-[200px]" v-for="(col, colIdx) in project.bottom" :key="`bottom-${colIdx}`">
-									<div class="text-primary font-semibold text-5xl">{{ col.title }}</div>
-									<p class="text-xl">{{ col.desc }}</p>
+							<div class="flex justify-between items-center mt-9 md:block md:space-y-10">
+								<div class="flex sm:justify-center space-x-10 md:space-x-16 sm:space-x-10">
+									<div class="max-w-[200px]" v-for="(col, colIdx) in project.bottom" :key="`bottom-${colIdx}`">
+										<div class="text-primary font-semibold text-5xl">{{ col.title }}</div>
+										<p class="text-xl sm:text-lg">{{ col.desc }}</p>
+									</div>
 								</div>
-								<div class="text-right">
+
+								<div class="text-right md:text-left sm:text-center">
 									<a :href="project.url" target="_blank" class="btn btn-black">
 										<span>Посмотреть работу</span>
 										<ui-icon class="ml-4" name="external-link" width="16px" />
@@ -39,7 +42,7 @@
 				</div>
 			</div>
 
-			<div class="absolute inset-0 pointer-events-none block">
+			<div class="absolute inset-0 pointer-events-none block lg:hidden">
 				<div class="container h-full relative">
 					<div class="absolute left-0 w-12 flex h-full items-center">
 						<button class="slider-nav-arrow w-12 h-12 pointer-events-auto flex justify-center items-center" title="Предыдущий слайд" ref="prevBtn">
@@ -146,6 +149,15 @@ import Icon from '../Icon.vue'
 				nextArrow: $(this.$refs.nextBtn),
 				dots: true,
 				appendDots: $(this.$refs.sliderDots),
+				adaptiveHeight: true,
+				responsive: [
+					{
+						breakpoint: 640,
+						settings: {
+							fade: false,
+						}
+					},
+				]
 			})
 		}
 	}

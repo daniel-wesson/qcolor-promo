@@ -2,6 +2,16 @@
 	<div class="site-wrapper" :style="`opacity: ${loaded ? 1 : 0}`">
 		<Header />
 		<Nuxt />
+		<div
+			v-if="isDev"
+			class="fixed bottom-0 left-0 text-white bg-gray-900 py-1 px-2 text-sm leading-none rounded-tr-md z-50"
+		>
+			<span class="xl:hidden">2xl</span>
+			<span class="hidden xl:inline lg:hidden">xl</span>
+			<span class="hidden lg:inline md:hidden">lg</span>
+			<span class="hidden md:inline sm:hidden">md</span>
+			<span class="hidden sm:inline">sm</span>
+		</div>
 	</div>
 </template>
 
@@ -14,7 +24,8 @@
 		components: { Header },
 		data () {
 			return {
-				loaded: false
+				loaded: false,
+				isDev: process.env.NODE_ENV !== 'production'
 			}
 		},
 		watch: {
