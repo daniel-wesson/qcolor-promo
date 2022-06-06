@@ -1,5 +1,5 @@
 <template>
-	<header class="section_header fixed inset-x-0 top-0 z-30 lg:absolute" ref="header">
+	<header class="section_header fixed inset-x-0 top-0 z-30" ref="header">
 		<div class="container">
 			<div class="flex justify-between items-center py-2">
 				<div class="flex lg:block">
@@ -10,11 +10,11 @@
 						Качественная разработка и комплексное продвижение сайтов для психологов под ключ от 14 дней
 					</p>
 				</div>
-				<div class="flex items-center sm:opacity-60">
-					<a href="tel:+79101127174" class="font-medium text-xl sm:text-lg">8 (910) 112 71-74</a>
-					<div class="flex ml-10 lg:ml-2">
-						<a href="https://wa.me/79101127174" target="_blank" class="social-link flex items-center justify-center w-10 h-10 rounded-md">
-							<img class="social-image w-6 sm:w-5" src="/img/social/whatsapp.svg" alt="whatsapp">
+				<div class="flex items-center">
+					<a href="tel:+79101127174" class="font-medium text-xl sm:text-base text-gray-500">8 (910) 112 71-74</a>
+					<div class="flex ml-10 lg:ml-4">
+						<a class="social-link flex items-center justify-center w-10 h-10 rounded-md" href="https://wa.me/79101127174?text=Здравствуйте%2C%20меня%20заинтересовала%20разработка%20сайта" target="_blank">
+							<ui-icon name="whatsapp-bg" />
 						</a>
 					</div>
 				</div>
@@ -25,16 +25,36 @@
 
 <script>
 
-	import $ from 'jquery'
+import $ from 'jquery'
+import UiIcon from '~/components/Icon'
 
-	export default {
-		mounted () {
-			$(document).scroll((e) => {
-				const scroll = $(window).scrollTop()
-				const header = $(this.$refs.header)
-				scroll > 0 ? header.addClass('scrolled') : header.removeClass('scrolled')
-			})
-		}
+export default {
+	components: { UiIcon },
+	mounted () {
+		$(document).scroll((e) => {
+			const scroll = $(window).scrollTop()
+			const header = $(this.$refs.header)
+			scroll > 0 ? header.addClass('scrolled') : header.removeClass('scrolled')
+		})
 	}
+}
 
 </script>
+
+<style scoped lang="scss">
+
+.icon-whatsapp-bg {
+	animation: whatsapp-ping 2s ease infinite;
+	border-radius: 7px;
+
+	@keyframes whatsapp-ping {
+		0% {
+			box-shadow: 0 0 0 0 #25d366;
+		}
+		30% {
+			box-shadow: 0 0 6px 22px rgba(#25d366, 0);
+		}
+	}
+}
+
+</style>

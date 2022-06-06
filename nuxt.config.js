@@ -2,11 +2,11 @@ export default {
 	// Target: https://go.nuxtjs.dev/config-target
 	target: 'static',
 
-	globalName: 'deserve',
+	globalName: 'psyweb.site',
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'promo.deserve',
+		title: 'psyweb.site - разработка продающих сайтов для психологов',
 		htmlAttrs: {
 			lang: 'ru'
 		},
@@ -30,7 +30,6 @@ export default {
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
 	plugins: [
-		{ src: '~plugins/aos', ssr: false },
 		{ src: '~/plugins/slick', ssr: false },
 		{ src: '~/plugins/smooth-scroll.js', ssr: false },
 	],

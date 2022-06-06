@@ -1,10 +1,10 @@
 <template>
-	<section class="section_welcome h-screen flex items-center relative overflow-hidden">
+	<section class="section_welcome h-screen flex items-center relative overflow-hidden sm:pb-16">
 		<div class="absolute inset-x-0 top-0"  data-aos="fade-down" data-aos-delay="0" data-aos-duration="1000">
 			<img src="/img/gradient-background.jpg" alt="" class="w-full">
 		</div>
 		<div class="container relative z-10">
-			<h1 class="font-semibold leading-none text-7xl xl:text-6xl lg:text-5xl sm:text-4xl" data-aos="fade-down" data-aos-duration="1000">
+			<h1 class="font-semibold leading-none text-7xl xl:text-6xl lg:text-5xl sm:text-[2.5rem]" data-aos="fade-down" data-aos-duration="1000">
 				Разработка сайта <br>
 				<span class="underline-primary">для психологов</span>
 			</h1>
@@ -16,7 +16,7 @@
 				Наше агентство специализируется на разработке продающих сайтов для психологов, которые приводят новых клиентов уже через месяц. <a data-scroll href="#here_our_works" class="font-medium underline">Здесь</a> вы можете посмотреть лучшие наши работы.
 			</p>
 			<div class="mt-12 inline-block" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
-				<a class="btn text-xl h-[60px] lg:h-[50px] px-7 lg:text-md btn-primary btn-ping-primary" href="https://wa.me/79101127174" target="_blank">Обсудить проект</a>
+				<a class="btn text-xl h-[60px] lg:h-[50px] px-7 lg:text-md btn-primary btn-ping-primary" href="https://wa.me/79101127174?text=Здравствуйте%2C%20меня%20заинтересовала%20разработка%20сайта" target="_blank">Обсудить проект</a>
 			</div>
 		</div>
 

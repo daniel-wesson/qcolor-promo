@@ -1,7 +1,8 @@
 <template>
 	<section class="section_cases-grid py-28 relative z-20" id="here_our_works">
 		<div class="container">
-			<ul class="grid grid-cols-2 gap-8 lg:grid-cols-1">
+			<h2 class="text-center text-4xl font-semibold text-gray-700">Наше портфолио</h2>
+			<ul class="grid grid-cols-2 gap-8 lg:grid-cols-1 mt-10">
 				<li class="pb-7 bg-white shadow-md relative rounded-xl overflow-hidden" v-for="case_ in cases">
 					<div class="relative z-10 text-center">
 						<img class="w-full" :src="case_.image" :alt="`${case_.site} banner`">

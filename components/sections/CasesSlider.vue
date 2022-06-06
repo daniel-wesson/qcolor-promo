@@ -4,9 +4,12 @@
 			<h2 class="text-center text-4xl font-semibold text-gray-700">Лучшие результаты наших клиентов</h2>
 		</div>
 		<div class="relative">
+			<div class="hidden sm:block absolute inset-x-0 container mt-8 top-0">
+				<img class="block ml-auto w-14" :src="require('/static/img/h-scroll.svg')" />
+			</div>
 			<div class="slider" ref="slider">
 				<div v-for="(project, idx) in projects" :key="`project-${idx}`">
-					<div class="max-w-5xl mx-auto py-16 px-5">
+					<div class="max-w-5xl mx-auto pb-16 pt-16 sm:pt-24 px-5">
 						<div class="case-preview rounded-xl overflow-hidden">
 							<img class="w-full" src="/img/mac-os-bar.png" alt="MacOS bar">
 							<div class="relative">
@@ -85,7 +88,7 @@ import Icon from '../Icon.vue'
 					},
 					{
 						image: require('~/static/img/cases/case-sidorenko.png'),
-						title: 'Лендинг для психолога, занимающимся отношениями внутри супружеской пары - Елены Сидоренко',
+						title: 'Лендинг для психолога, занимающегося отношениями внутри супружеской пары - Елены Сидоренко',
 						taskDesc: 'Задача: сделать экслюзивный высококонверсионный лендинг для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды',
 						url: 'https://sidorenko.psyweb.site',
 						bottom: [
@@ -105,7 +108,7 @@ import Icon from '../Icon.vue'
 					},
 					{
 						image: require('~/static/img/cases/case-zagryadskaya.png'),
-						title: 'Лендинг для Анастасии Загрядской - психолога, занимающейся индивидуальными консультациями для взрослых, которые хотят вернуть душевный покой и равновесие',
+						title: 'Лендинг для Анастасии Загрядской - психолога, занимающегося индивидуальными консультациями для взрослых, которые хотят вернуть душевный покой и равновесие',
 						taskDesc: 'Задача: сделать экслюзивный высококонверсионный сайт для продвижения услуг квалифицированного психолога для привлечения новых клиентов из онлайн-среды',
 						url: 'https://zagryadskaya.psyweb.site/',
 						bottom: [

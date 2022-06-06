@@ -22,11 +22,13 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: '#111827',
+				'primary-pink': '#be6795',
 				'primary-darken': '#485bff',
 				'primary-lighten': '#00cfff'
 			},
 			fontSize: {
-				'.95': ['.95rem']
+				'.95': ['.95rem'],
+				'4.5xl': ['2.625rem']
 			},
 			animation: {
 				'floating': 'floating 5s ease-in-out infinite',

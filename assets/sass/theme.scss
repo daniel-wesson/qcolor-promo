@@ -45,9 +45,14 @@ body {
 		display: block;
 		height: 12px;
 		// background-color: $primary;
-		background-color: #111827;
+		background-color: #be6795;
 		opacity: .5;
 		z-index: -1;
+
+		@screen sm {
+			bottom: 0;
+			height: 8px;
+		}
 	}
 }
 
@@ -74,14 +79,14 @@ body {
 		line-height: 16px;
 		position: absolute;
 		right: 0;
-		transform: translateX(50%);
+		transform: translateX(9px);
 		top: -25px;
 		font-size: 10px;
 
 		&:after {
 			position: absolute;
 			top: 100%;
-			left: 50%;
+			right: 0;
 			transform: translateX(-50%);
 			content: "";
 			display: block;
