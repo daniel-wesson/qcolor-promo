@@ -13,7 +13,7 @@
 				<p class="font-semibold">Разработка <span class="text-gray-500">без рисков</span></p>
 			</div>
 			<p class="mt-11 text-lg text-gray-600 max-w-xl" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
-				Наше агентство специализируется на разработке продающих сайтов для психологов, которые приводят новых клиентов уже через месяц. <a data-scroll href="#here_our_works" class="font-medium underline">Здесь</a> вы можете посмотреть лучшие наши работы.
+				Наше агентство специализируется на разработке продающих сайтов для психологов, которые приводят новых клиентов уже через месяц. <nuxt-link :to="{ name: 'cases' }" class="font-medium underline">Здесь</nuxt-link> вы можете посмотреть лучшие наши работы.
 			</p>
 			<div class="mt-12 inline-block" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
 				<a class="btn text-xl h-[60px] lg:h-[50px] px-7 lg:text-md btn-primary btn-ping-primary" href="https://wa.me/79101127174?text=Здравствуйте%2C%20меня%20заинтересовала%20разработка%20сайта" target="_blank">Обсудить проект</a>

@@ -17,49 +17,78 @@
 
 <script>
 
-	import { gsap } from 'gsap'
-	import { ScrollTrigger } from "gsap/ScrollTrigger"
-
-	export default {
-		data () {
-			return {
-				cases: [
-					{
-						image: require('~/static/img/cases/case-sapanova.png'),
-						name: 'Лендинг для Арайлым Сапановой',
-						url: 'https://sapanova.psyweb.site'
-					},
-					{
-						image: require('~/static/img/cases/case-sidorenko.png'),
-						name: 'Лендинг для Елены Сидоренко',
-						url: 'https://sidorenko.psyweb.site'
-					},
-					{
-						image: require('~/static/img/cases/case-martynuk.png'),
-						name: 'Лендинг для Александры Мартынюк',
-						url: 'https://martyniuk.psyweb.site'
-					},
-					{
-						image: require('~/static/img/cases/case-zagryadskaya.png'),
-						name: 'Сайт для Анастасии Загрядской',
-						url: 'https://zagryadskaya.psyweb.site'
-					},
-					{
-						image: require('~/static/img/cases/case-chigdem.png'),
-						name: 'Сайт для Александры Чигдэм',
-						url: 'https://chihdem.psyweb.site'
-					},
-					{
-						image: require('~/static/img/cases/case-blisost.png'),
-						name: 'Сайт для Анастасии Афинской',
-						url: 'https://closeness.psyweb.site'
-					}
-				]
-			}
-		},
-		mounted () {
-
+export default {
+	data () {
+		return {
+			cases: [
+				{
+					image: require('~/static/img/cases/case-sapanova.png'),
+					name: 'Лендинг для Арайлым Сапановой',
+					url: 'https://sapanova.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-sidorenko.png'),
+					name: 'Лендинг для Елены Сидоренко',
+					url: 'https://sidorenko.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-martynuk.png'),
+					name: 'Лендинг для Александры Мартынюк',
+					url: 'https://martyniuk.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-zagryadskaya.png'),
+					name: 'Сайт для Анастасии Загрядской',
+					url: 'https://zagryadskaya.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-chigdem.png'),
+					name: 'Сайт для Александры Чигдэм',
+					url: 'https://chihdem.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-blisost.png'),
+					name: 'Сайт для Анастасии Афинской',
+					url: 'https://closeness.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-natalirusskova.png'),
+					name: 'Лендинг для Натальи Руссковой',
+					url: 'https://natalirusskova.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-nborisenko.png'),
+					name: 'Лендинг для Надежды Борисенко',
+					url: 'https://nborisenko.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-alinaguseva.png'),
+					name: 'Лендинг для Алины Гусевой',
+					url: 'https://alinaguseva.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-annamatari.png'),
+					name: 'Лендинг для Анны Матари',
+					url: 'https://annamatari.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-shurinova.png'),
+					name: 'Лендинг для Людмилы Шуриновой',
+					url: 'https://shurinova.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-nadezhdaiakovleva.png'),
+					name: 'Сайт для Надежды Яковлевой',
+					url: 'https://nadezhdaiakovleva.psyweb.site'
+				},
+				{
+					image: require('~/static/img/cases/case-osipova.png'),
+					name: 'Сайт для Виктории Осиповой',
+					url: 'https://osipova.psyweb.site'
+				}
+			]
 		}
 	}
+}
 
 </script>

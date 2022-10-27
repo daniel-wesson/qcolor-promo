@@ -43,7 +43,7 @@
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				
+
 				&:after {
 					content: "";
 					display: block;
@@ -65,7 +65,7 @@
 			}
 			li {
 				&:not(:last-child) {
-					margin-right: 15px;
+					margin-right: 7px;
 				}
 				&.slick-active button::after {
 					background-color: $primary;

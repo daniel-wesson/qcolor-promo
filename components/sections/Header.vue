@@ -3,9 +3,9 @@
 		<div class="container">
 			<div class="flex justify-between items-center py-2">
 				<div class="flex lg:block">
-					<a href="https://deserve.ru" class="h-16 lg:h-auto flex items-center">
+					<nuxt-link class="h-16 lg:h-auto flex items-center" :to="{ name: 'index' }">
 						<img class="h-8 lg:h-7 mb-1 sm:mb-0" src="~/static/img/logo.png" alt="">
-					</a>
+					</nuxt-link>
 					<p class="block self-center text-.95 leading-snug ml-8 lg:ml-0 lg:text-sm text-gray-600 max-w-[420px] md:max-w-sm sm:hidden">
 						Качественная разработка и комплексное продвижение сайтов для психологов под ключ от 14 дней
 					</p>
